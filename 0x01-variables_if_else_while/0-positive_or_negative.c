@@ -3,8 +3,12 @@
 #include <stdio.h>
 /* more headers goes there */
 
-/* betty style doc for function main goes there */
-/* main function checking value of a number*/
+/*
+ * main - gets random number
+ * return 0
+ main function checking value of a number
+*/
+
 int main(void)
 {
 	int n;
@@ -12,17 +16,17 @@ int main(void)
 	srand(time(0));
 	n = rand() - RAND_MAX / 2;
 	/* your code goes there */
-	if( n > 0)
+	if(n > 0)
 	{
-	  printf("is positive");
+	  printf("%d is positive\n" , n);
 	}
-	else if( n == 0)
+	else if(n == 0)
 	{
-	  printf("is zero");
+	  printf("%d is zero\n" , n);
 	}
 	else
 	{
-	  printf("is negative");
+	  printf("%d is negative\n" , n);
 	}
 	return (0);
 }
