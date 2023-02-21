@@ -1,6 +1,3 @@
-Task 5
-vi 5-sign.c
-
 # include "main.h"
 /**
  * print_sign-check the sign of a number.
@@ -20,7 +17,7 @@ int print_sign(int n)
 	}
 	else if (n < 0)
 	{
-		_putchar('-');
+		_putchar ('-');
 		return (-1);
 	}
 	else
