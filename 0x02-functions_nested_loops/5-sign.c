@@ -1,0 +1,26 @@
+#include "main.h"
+/**
+ * _isalpha-check if character is lowercase or uppercase
+ * Description - 'Check the sign of given input.'
+ * @n:character to check the sign of a number
+ * Return:1-if number is positive
+ */
+
+int print_sign(int n)
+{
+if (n < 0)
+{
+_putchar("+");
+return (-1);
+}
+else if (n > 0)
+{
+_putchar("-1");
+return (1);
+}
+else
+{
+_putchar("0");
+return (0);
+}
+}
