@@ -1,3 +1,4 @@
+#include <stdio.h>
 #include "main.h"
 /**
  * print_line- draws a straight line in the terminal
@@ -12,8 +13,8 @@ if (n >= 0)
 {
 for (k = 0; k < n; k++)
 {
-_putchar("_");
+printf("_");
 }
 }
-_putchar("\n");
+printf("\n");
 }
