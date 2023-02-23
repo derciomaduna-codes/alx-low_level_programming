@@ -5,8 +5,6 @@
  * Return:1-if lowercase/uppercase,0-if not.
  */
 
-
-
 int _isupper(int c)
 {
 if (c >= 'A' && c <= 'Z')
