@@ -12,8 +12,8 @@ if (n >= 0)
 {
 for (k = 0; k < n; k++)
 {
-printf("_");
+_putchar("_");
 }
 }
-printf("\n");
+_putchar("\n");
 }
