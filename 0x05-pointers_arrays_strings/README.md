@@ -1,0 +1,1 @@
+Creating read me for the pointers task
