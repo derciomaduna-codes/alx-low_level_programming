@@ -1,11 +1,15 @@
-#include <stdio.h>
 #include "main.h"
 /**
- * _void _puts_recursion - fill a block of memory with a specific value
- * @s: string to print
- * Return: Always 0 (Success)
+ * _puts_recursion - Prints a string, followed by a new line.
+ * @s: The string to be printed.
  */
-
-void _puts_recursion(char *s){
-printf("%s",*s);
+void _puts_recursion(char *s)
+{
+if (*s)
+{
+_putchar(*s);
+_puts_recursion(s + 1);
+}
+else
+_putchar('\n');
 }
